@@ -1,0 +1,443 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+main {
+    margin-top: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 31.1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.clipboard-logo  {
+    margin-top: 12.3rem;
+}
+
+h1 {
+    margin-top: 6.4rem;
+}
+
+header p {
+    margin-top: 1.6rem;
+}
+
+header h1, header p, header .download-clipboard {
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+}
+
+.download-clipboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+    margin-top: 4.8rem;
+    max-width: 31.1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.download-ios {
+    border: 0.1rem solid #26BBA4;
+    border-radius: 2.8rem;
+    overflow: hidden;
+    padding: 1.3rem 7.2rem;
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    transition: background-color 0.25s ease-in-out;
+}
+
+.download-mac {
+    border: 0.1rem solid #6174FF;
+    border-radius: 2.8rem;
+    overflow: hidden;
+    padding: 1.3rem 7.2rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    transition: background-color 0.25s ease-in-out;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.snippets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.snippets-computer-image {
+    max-width: 31.1rem;
+    margin-top: 6.5rem;
+}
+
+.snippets-highligths {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.6rem;
+    gap: 4.8rem;
+}
+
+.snippets-search, .snippets-cloud, .snippets-history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.access-clipboard-title {
+    margin-top: 18.6rem;
+}
+
+.access-clipboard-brief {
+    margin-top: 1.6rem;
+}
+
+.devices-image {
+    max-width: 31.1rem;
+    margin-top: 6.4rem;
+}
+
+.clipboard-tools-title {
+    margin-top: 13rem;
+}
+
+.clipboard-tools-brief {
+    margin-top: 1.1rem;
+}
+
+.clipboard-tools {
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.6rem;
+}
+
+.tools h3 {
+    margin-top: 4rem;
+}
+
+.tools p {
+    margin-top: 1.8rem;
+}
+
+.brand-logos {
+    margin-top: 13.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.6rem;
+}
+
+.clipboard-compatibility-title {
+    margin-top: 17rem;
+}
+
+.clipboard-compatibility-brief {
+    margin-top: 1.6rem;
+}
+
+.bottom-download-links {
+    margin-bottom: 17rem;
+}
+
+footer {
+    width: 100%;
+}
+
+.footer-logo {
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-top: 5.2rem;
+}
+
+.useful-links {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.useful-links a {
+    transition: color 0.25s ease-in-out;
+}
+
+.social-media-links {
+    margin-top: 4.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 5.1rem;
+}
+
+.social-media-links img {
+    transition: all 0.25s ease-in-out;
+}
+
+@media (min-width: 625px) {
+    body {
+        background-image: url(../img/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: top;
+    }
+
+    main {
+        max-width: 55rem;
+    }
+}
+
+@media (min-width: 920px) {
+    main {
+        max-width: 122rem;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 4.6rem;
+        line-height: 5.7rem;
+        margin-top: 5.6rem;
+    }
+
+    header p {
+        font-size: 2rem;
+        line-height: 3rem;
+        max-width: 73rem;
+    }
+
+    .download-clipboard {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1.6rem;
+        max-width: 48rem;
+    }
+
+    .download-ios, .download-mac {
+        max-width: 23rem;
+        padding: 1.3rem 3.2rem;
+    }
+
+    .download-ios:hover, .download-ios:focus {
+        background-color: rgba(38, 187, 164, 0.8);
+        cursor: pointer;
+    }
+
+    .download-mac:hover, .download-mac:focus {
+        background-color: rgba(97, 116, 255, 0.8);
+        cursor: pointer;
+    }
+
+    .snippets {
+        max-width: 121.1rem;
+    }
+
+    .snippets-about {
+        max-width: 73rem;
+    }
+
+    .snippets-title {
+        margin-top: 1.5rem;
+        font-size: 3.6rem;
+        line-height: 4.5rem;
+    }
+
+    .snippets-brief {
+        margin-top: 1.9rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+
+    .snippets-info {
+        margin-top: 93.4rem;
+        max-width: 121.1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 11rem;
+        position: absolute;
+        left: -20rem;
+    }
+
+    .snippets-highligths {
+        margin-top: 0rem;
+        gap: 5.6rem;
+    }
+
+    .snippets-search, .snippets-cloud, .snippets-history {
+        max-width: 35rem;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .snippets-search p, .snippets-cloud p, .snippets-history p {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .snippets-computer-image {
+        margin-top: 0rem;
+        max-width: 75.2rem;
+    }
+
+    .access-clipboard-title {
+        margin-top: 78.7rem;
+        font-size: 3.6rem;
+        line-height: 4.5rem;
+    }
+
+    .access-clipboard-brief {
+        margin-top: 1.9rem;
+        max-width: 73rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+
+    .devices-image {
+        width: 100%;
+        max-width: 91.2rem;
+    }
+
+    .clipboard-tools-title {
+        margin-top: 8rem;
+        font-size: 3.6rem;
+        line-height: 4.5rem;
+    }
+
+    .clipboard-tools-brief {
+        margin-top: 1.9rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+
+    .clipboard-tools {
+        margin-top: 7.2rem;
+        flex-direction: row;
+        max-width: 90rem;
+    }
+
+    .tools {
+        max-width: 35rem;
+    }
+
+    .brand-logos {
+        margin-top: 15rem;
+        flex-direction: row;
+        max-width: 111rem;
+        gap: 4.5rem;
+        max-width: 90rem;
+    }
+
+    .clipboard-compatibility-title {
+        margin-top: 15rem;
+        font-size: 3.6rem;
+        line-height: 4.5rem;
+    }
+
+    .clipboard-compatibility-brief {
+        margin-top: 1.9rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        max-width: 73rem;
+    }
+
+    .bottom-download-links {
+        margin-top: 4.8rem;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-height: 15rem;
+        padding: 3.9rem;
+    }
+
+    .footer-logo {
+        margin: 0rem;
+    }
+
+    .useful-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        max-width: 52rem;
+        margin: 0rem;
+    }
+
+    .useful-links a {
+        width: 100%;
+        max-width: 13.5rem;
+        text-align: left;
+    }
+
+    .social-media-links {
+        margin: 0rem;
+    }
+
+    .useful-links a:hover, .useful-links a:focus {
+        color: #26BBA4;
+        cursor: pointer;
+    }
+
+    .social-media-links img:hover, .social-media-links img:focus {
+        /** turn svg image to black before applying desired filter **/
+        filter: brightness(0);
+        filter: saturate(100%);
+        filter: invert(52%) sepia(70%) saturate(446%) hue-rotate(121deg) brightness(102%) contrast(88%);
+    }
+}
+
+@media (min-width: 1150px) {
+    .clipboard-tools {
+        max-width: 111rem;
+    }
+
+    .brand-logos {
+        max-width: 111rem;
+        gap: 8.6rem;
+    }
+}

@@ -1,0 +1,60 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: #4C545C;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #9EABB2;
+}
+
+.download-clipboard a {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.download-ios {
+    background-color: #26BBA4;
+    letter-spacing: 0.05rem;
+}
+
+.download-mac {
+    background-color: #6174FF;
+    letter-spacing: 0.05rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+    color: #4C545C;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #4C545C;
+}
+
+footer {
+    background-color: 	hsl(201, 11%, 66%, 0.1);
+}
+
+footer a {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #4C545C;
+}
